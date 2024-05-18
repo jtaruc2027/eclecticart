@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-commerce Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NAME??</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Shop</a>
+              <a class="nav-link" href="about.html">About</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container d-flex">
+        <h1>INSERT SHOP NAME</h1>
+        <H3>ADDITIONAL INFORMATION</H3>
+        <h4>BASTA YUNG KAMUKHA SA CANVA</h4>
+      </div>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#electronics">Electronics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#appliances">Appliances</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#clothes">Clothes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#shoes">Shoes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#toys">Toys</a>
+      </li>
+    </ul>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8">
+                <section id="products">
+                    <div id="electronics" class="product-category">
+                        <h3>Electronics</h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <img src = "..." alt = "...">
+                                    <div class="card-body">
+                                        <p class="card-text">iPhone 29 Pro Max - PhP 44</p>
+                                        <button class="btn btn-primary" onclick="addToCart('iPhone 29 Pro Max', 44)">Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                  <img src = "..." alt = "...">
+                                    <div class="card-body">
+                                        <p class="card-text">iPad Pro 69 inch - PhP 2</p>
+                                        <button class="btn btn-primary" onclick="addToCart('iPad Pro 69 inch', 2)">Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                  <img src = "..." alt = "...">
+                                    <div class="card-body">
+                                        <p class="card-text">Samsung Unfoldable Phone - PhP 68,000</p>
+                                        <button class="btn btn-primary" onclick="addToCart('Samsung Unfoldable Phone', 68000)">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <img src = "..." alt = "...">
+                                    <div class="card-body">
+                                        <p class="card-text">JBL kumakabog na speaker - PhP 900,000</p>
+                                        <button class="btn btn-primary" onclick="addToCart('JBL kumakabog na speaker', 900000)">Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                  <img src = "..." alt = "...">
+                                    <div class="card-body">
+                                        <p class="card-text">ROG Gaming Laptop - PhP 17</p>
+                                        <button class="btn btn-primary" onclick="addToCart('ROG Gaming Laptop', 17)">Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                  <img src = "..." alt = "...">
+                                    <div class="card-body">
+                                        <p class="card-text">Canon G7 X Camera - PhP 5</p>
+                                        <button class="btn btn-primary" onclick="addToCart('Canon G7 X Camera', 5)">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="appliances" class="product-category">
+                        <h3>Appliances</h3>
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Ref na kinakatok - PhP 100,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Ref na kinakatok', 100000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Mainit na electricfan - PhP 25,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Mainit na electricfan', 25000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">TV na basag - PhP 50,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('TV na basag', 50000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Pressure cooker na di ka ppressurin - PhP 16,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Pressure cooker na di ka ppressurin', 16000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Aircon ni Olaf - PhP 123,456</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Aircon ni Olaf', 123456)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Rice cooker - PhP 50</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Rice cooker', 50)">Add to Cart</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div id="clothes" class="product-category">
+                        <h3>Clothes</h3>
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">T-shirt na butas - PhP 100,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('T-shirt na butas', 100000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Prom Suit ni Miggy - PhP 500,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Prom Suit ni Miggy', 500000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Winter Jacket sa Pinas - PhP 450</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Winter Jacket sa Pinas', 450)">Add to Cart</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Shorts na long - PhP 125</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Shorts na long', 125)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Plain Maxi Dress - PhP 15</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Plain Maxi Dress', 15)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Pisay Shirt - PhP 17,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Pisay Shirt', 17000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div id="shoes" class="product-category">
+                        <h3>Shoes</h3>
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Gucci Rubber Shoes - PhP 10</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Gucci Rubber Shoes', 10)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Niek Running Shoes - PhP 5,555</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Niek Running Shoes', 5555)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">10-inch high heels - PhP 1,234</p>
+                                      <button class="btn btn-primary" onclick="addToCart('10-inch high heels', 1234)">Add to Cart</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Chanel Flat Shoes - PhP 27</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Chanel Flat Shoes', 27)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Slippers that will make you slip - PhP 999</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Slippers that will make you slip', 999)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Crocs without holes - PhP 20,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Crocs without holes', 20000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div id="toys" class="product-category">
+                        <h3>Toys</h3>
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Miniso We Bare Bears Plushie - PhP 590</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Miniso We Bare Bears Plushie', 590)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Scary doll - PhP 12</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Scary doll', 12)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Lightning McQueen car - PhP 500</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Lightning McQueen car', 500)">Add to Cart</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Lego Flowers for him/her - PhP 5,000</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Lego Flowers for him/her', 5000)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Ken pero walang Barbie - PhP 345</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Ken pero walang Barbie', 345)">Add to Cart</button>
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                <img src = "..." alt = "...">
+                                  <div class="card-body">
+                                      <p class="card-text">Edible Play Doh set - PhP 800</p>
+                                      <button class="btn btn-primary" onclick="addToCart('Edible Play Doh set', 800)">Add to Cart</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-4 sidebar sticky-top">
+              <div id="cart" class="bg-light p-4 mt-4">
+                <h2>Shopping Cart</h2>
+                <ul id="cart-items" class="list-group mb-3">
+                </ul>
+                <p>Total: $<span id="total-price">0</span></p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row details">
+        <h3>Profile/Delivery Details</h3>
+        <form id="checkout-form" action="http://sirjm.infinityfreeapp.com/checkout.php" method="GET" onsubmit="prepareOrderData()">
+          <div class="form-group">
+              <input type="text" class="form-control" name="cust_name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+              <input type="text" class="form-control" name="cust_addr" placeholder="Your Address" required>
+          </div>
+          <div class="form-group">
+              <input type="email" class="form-control" name="cust_email" placeholder="Your Email" required>
+          </div>
+          <input type="hidden" name="cust_order" id="cust_order">
+          <button type="submit" class="btn btn-success">Checkout</button>
+      </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

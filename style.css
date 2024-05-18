@@ -1,0 +1,10 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh; 
+  overflow-y: scroll;
+}
+
+.details {
+  width: 50vw;
+}
