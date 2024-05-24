@@ -19,7 +19,7 @@ function renderCart() {
     cart.forEach((item, index) => {
         const li = document.createElement('li');
         li.className = 'list-group-item d-flex justify-content-between align-items-center';
-        li.innerHTML = `${item.name} - $${item.price} <button class="btn btn-danger btn-sm" onclick="removeFromCart(${index})">Remove</button>`;
+        li.innerHTML = `${item.name} - ₱${item.price} <button class="btn btn-danger btn-sm" onclick="removeFromCart(${index})">Remove</button>`;
         cartItems.appendChild(li);
         totalPrice += item.price;
     });
