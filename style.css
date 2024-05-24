@@ -3,33 +3,33 @@
     font-style: italic;
 }
 
-h3 {
-    font-family: "Merriweather", serif;
-    text-align: center;
+.quicksand {
+    font-family: "Quicksand", sans-serif;
 }
 
 .details {
-    margin-top: 50px;
+    margin-top: 8vh;
 }
-
 #cart {
     height: 100%;
+}
+
+p {
+  font-size: 2vh;
 }
 
 .product-category {
     margin-bottom: 5%;
 }
-
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 3.19vh;
+    height: 375px;
 }
-
 .navbar {
-    margin-bottom: 20px;
+    margin-bottom: 3.19vh;
 }
-
 .footer {
-    margin-top: 50px;
+    margin-top: 8vh;
     text-align: center;
 }
 .collapse-navbar-collapse {
@@ -53,13 +53,17 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+
+.navbar {
+    width: 100%;
+}
 .navbar-brand,
 .nav-link {
-    font-family: 'Merryweather', serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 700;
-    font-style: italic;
-    font-size: 4vh;
+    font-size: 3.6vh;
 }
+
 .navbar-brand {
     display: flex;
     justify-content: center;
@@ -70,7 +74,7 @@ body, .container, .row, form {
 }
 .nav-item {
     background-color: white;
-    border-bottom: 2px solid white;
+    border-bottom: 0.16vw solid white;
     margin-bottom: 5%;
     margin-top: -3%;
     height: 5rem; 
@@ -86,7 +90,7 @@ body, .container, .row, form {
 }
 .product-category {
     background-color: #D3CFC9;
-    font-family: "Merriweather", serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 800;
     font-style: italic;
 }
@@ -108,7 +112,7 @@ body, .container, .row, form {
         font-optical-sizing: auto;
         font-weight: 350;
         font-style: normal;
-      }
+}
 .btn-primary {
     font-family: "Merriweather", serif;
     font-style: italic;
@@ -116,8 +120,10 @@ body, .container, .row, form {
     background-color:rgb(168, 139, 114);
     border-color: rgb(168, 139, 114);
  }
- .btn-primary:hover {
+.btn-primary:hover {
     background-color: rgb(34, 34, 34);
     border-color: rgb(34, 34, 34);
 }
-
+.navl-link .href{
+    color: white;
+}
