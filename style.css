@@ -11,9 +11,9 @@
     margin-top: 8vh;
 }
 #cart {
-    height: 100%;
+    height: 980.5vh;
+    overflow-y: scroll;
 }
-
 p {
   font-size: 2vh;
 }
