@@ -12,9 +12,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
     <title>About Us</title>
 
     <style>
+
+        @media (max-width: 900px) {
+    .imahe {
+        display: none;
+    }
+}
         .merriweather-bold-italic {
     font-family: "Merriweather", serif;
     font-style: italic;
@@ -61,10 +70,10 @@ img {
 }
 .navbar-brand,
 .nav-link {
-    font-family: 'Merryweather', serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 4vh;
+    font-size: 3.6vh;
 }
 .navbar-brand {
     display: flex;
@@ -145,7 +154,7 @@ body, .container, .row, form {
     </nav>
 
     <div class="content">
-        <img src="media/About2.png" class="left-image" alt="About Image">
+        <img src="media/About2.png" class="left-image imahe" alt="About Image">
         <div class="main-content">
             <div class="box">
                 <p style="font-family: 'Roboto Mono', monospace; text-align: justify; margin: 1rem 0;">
